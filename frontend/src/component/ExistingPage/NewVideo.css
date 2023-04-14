@@ -1,0 +1,23 @@
+.newvideo{
+    margin: 20px 0 0 20px;
+    width: 70%;
+    height: 50%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.main-newvideo-container{
+    margin-left: 78%;
+    margin-top: -600px;
+}
+
+
+.title{
+    color: white;
+    position: relative;
+    left: 8px;
+}
+.username{
+    color: white;
+}

@@ -1,0 +1,114 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0F121FF5;
+  overflow-y: hidden;
+  height: 100vh;
+}
+  
+  .tunerImg {
+    position: absolute;
+    right: 808px;
+  }
+  
+  .pic {
+    height: 100vh;
+  }
+  
+  .register {
+    color: #eaeaea;
+    font-size: 35px;
+    border: none;
+    right: 1px;
+    position: relative;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    position: absolute;
+    right: 290px;
+  }
+  .form-input{
+    text-align: end;
+    position: relative;
+  }
+  
+  .name{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+  }
+  .email{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+  }
+  .password{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+  }
+  .cp{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+  }
+  .phone{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+  }
+  .pr {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='tel'] {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 20rem;
+  }
+  
+  .button {
+    background-color: #C4B4F8;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .text-info {
+    margin-top: 1rem;
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    right: 774px;
+    top: 64px;
+    color: white;
+  }
+  
+  .text-info:hover {
+    text-decoration: underline;
+  }
+  
+
+  .text-danger{
+    color: white;
+  }

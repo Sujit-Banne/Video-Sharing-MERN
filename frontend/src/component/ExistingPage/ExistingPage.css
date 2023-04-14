@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #000000;
+  height: 30px;
+}
+
+
+/* logo */
+.logo{
+  height: 30px;
+  margin-left: 66px;
+  cursor: pointer;
+}
+
+/* search bar */
+.search-input{
+  border-radius: 20px;
+  border: none !important;  
+  width: 500px;
+}
+
+
+/* login and register  */
+.login{
+  background-color: #000000;
+  color: #ccc;
+  border: none;
+  font-size: 20px;
+}
+
+.register-signup{
+  background-color: #000000;
+  color: #ccc;
+  font-size: 20px;
+  border: none;
+}
+
+
+.navbar-separator {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.poster{
+width: 100%;
+height: 500px;
+}
+
+/* videos */
+.container {
+  padding: 20px;
+  background-color: #0f121ff5;
+  color: #ccc;
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.togglebar{
+  display: flex;
+}
+
+.toggle-button {
+  background-color: #1a1d27f5;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: auto;
+    color: white;
+}
+
+
+.toggle-button:hover{
+  background-color: #797878;
+  border: none;
+  border-radius: 20px;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.video-container {
+  width: 23%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.video-thumbnail {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.video-thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-details {
+  margin-top: 10px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.video-title {
+  font-size: 14px;
+}
+
+.selected-video {
+  margin-top: 20px;
+}
+
+.selected-video img {
+  max-width: 100%;
+}
+
+/* crousel */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.carousel-thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+  cursor: pointer;
+}
+
+.carousel-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carousel-details {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.carousel-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
